@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML+JS</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id="timer">
+      <h1>カウントダウンタイマー</h1>
+      <p>
+        <input type="number" id="input_min" value="0" min="0" max="59" size="0">分
+        <input type="number" id="input_sec" value="0" min="0" max="59" size="0">秒
+        <input type="button" id="set" value="SET">
+      </p>
+      <p>
+        <span id="min" >0</span> 分
+        <span id="sec">0</span> 秒
+      </p>
+      <p>
+        <input type="button" id="start" value="START">
+        <input type="button" id="stop" value="STOP" disabled>
+        <input type="button" id="reset" value="RESET">
+      </p>
+      <!--　<p>
+        <span id="sample" >sample</span>でばっぐ用
+      </p>　-->
+    </div>
+  </body>
+</html>
